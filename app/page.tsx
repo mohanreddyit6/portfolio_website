@@ -280,7 +280,7 @@ export default function Portfolio() {
            </Button>
 
              <Button variant="secondary" className="group w-full sm:w-auto" asChild>
-              <a href="/resume.pdf" target="_blank" rel="noreferrer">
+              <a href="/Mohanreddy_Kondreddy_Updated.pdf" target="_blank" rel="noreferrer">
                 Download Resume <Download className="ml-2 h-4 w-4" />
               </a>
            </Button>
