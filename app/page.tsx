@@ -28,17 +28,17 @@ const stagger: Variants = {
 // --- Updated Profile Info (from latest resume) ---
 const PROFILE = {
   name: "Mohanreddy Kondreddy",
-  title: "Full‑Stack Software Engineer",
+  title: "Software Engineer",
   location: "Open to Relocate · St. Louis, MO",
   summary:
-    "An IT professional passionate about building scalable, efficient solutions and leveraging technology to solve real-world problems. Over the past 5+ years, I’ve gained valuable experience at Capital One(Current), Deloitte, and Fusion Software, building expertise in Java, React, SQL, AWS, and modern DevOps practices. I also hold a Master’s degree in Information Systems from Saint Louis University, With a strong foundation and a mindset for continuous growth, I’m eager to contribute to innovative projects that make a meaningful impact.",
+    "An IT professional who enjoys building efficient and scalable solutions that solve real-world problems. During my time as a Software Engineering Intern at Capital One and my earlier experience at Deloitte, I worked with technologies like Java, React, SQL, and AWS, and learned how modern DevOps practices bring ideas to life faster. I recently earned my Master’s in Information Systems from Saint Louis University, and I’m excited to keep learning, growing, and contributing to projects that make a real difference.",
   avatar:
     "/avatar.jpg",
   socials: [
     { label: "GitHub", icon: Github, href: "https://github.com/mohanreddyit6" },
-    { label: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/in/mohanreddy-kondreddy-340246188" },
+    { label: "LinkedIn", icon: Linkedin, href: "http://www.linkedin.com/in/mohanreddy-kondreddy-7b445b391" },
     
-    { label: "Email", icon: Mail, href: "mailto:mohanreddy.k@protectmymails.com" },
+    { label: "Email", icon: Mail, href: "mailto:mohanreddy.it3@gmail.com" },
   ],
 };
 
@@ -47,7 +47,7 @@ const SKILLS = [
   // Frontend
   "React.js", "Next.js", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Responsive UI",
   // Backend
-  "Java 17", "Spring Boot", "Spring MVC", "Hibernate", "Node.js", "Express.js", "GraphQL", "Microservices",
+  "Java 17", "Spring Boot", "Spring MVC", "Hibernate", "Node.js", "GraphQL", "Microservices",
   // Cloud & DevOps
   "RESTful API", "AWS (EC2/S3/RDS/Lambda)", "Azure", "Docker", "Kubernetes", "CI/CD Automation", "Terraform", "CloudWatch",
   // Data & Streaming
@@ -55,14 +55,14 @@ const SKILLS = [
   // Security & Monitoring
   "Spring Security", "OAuth2", "JWT", "RBAC", "ELK Stack",
   // QA
-  "JUnit", "Postman", "SOAP UI", "Drools Rule Engine",
+  "JUnit", "Postman", "SOAP UI", "Drools Rule Engine","Drools",
   // Ways of working
   "Agile (Scrum/Kanban)", "Code Reviews", "Git/GitHub/GitLab/Bitbucket",
 ];
 
 const PROJECTS = [
   {
-    title: "Capital One – Real‑Time Banking Platform",
+    title: "Capital One – Financial Platform",
     blurb: "Architected Java 17/Spring Boot microservices and React TypeScript dashboards; integrated Kafka/GraphQL payment flows and event‑driven alerts; automated CI/CD on AWS (Lambda, EC2, S3).",
     stack: ["Java 17", "Spring Boot", "React", "TypeScript", "Kafka", "GraphQL", "AWS", "Docker", "Kubernetes"],
     link: "#experience",
@@ -76,14 +76,6 @@ const PROJECTS = [
     link: "#experience",
     repo: "",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
-    title: "Fusion Technologies – Application Development",
-    blurb: "Spring Boot microservices with Kafka JMS; Eureka/Config/Ribbon for resilience; GraphQL schema to reduce over‑fetching; reusable React hooks.",
-    stack: ["Spring Boot", "Kafka", "Eureka", "Spring Cloud Config", "Ribbon", "React", "GraphQL"],
-    link: "#experience",
-    repo: "",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop", // application development
   },
   {
     title: "UHAP – Academic: Web Application",
@@ -101,46 +93,31 @@ const PROJECTS = [
     repo: "",
     image: "/dl.jpg", // application development
   },
+  {
+    title: "Professional Portfolio – Web Application",
+    blurb: "Built responsive portfolio website to showcase my work, experience, and projects. It features smooth animations with Framer Motion, dark/light mode support, and a functional contact form. Focused on clean design, performance, and accessibility while learning modern frontend workflows and deployment using Vercel. ",
+    stack: ["Next.Js", "React", "Tailwind CSS", "Vercel"],
+    link: "",
+    repo: "",
+    image: "/portfolio.png", // application development
+  },
 ];
 
 const EXPERIENCE = [
   {
     company: "Capital One Financial, CA",
-    title: "Software Engineer",
-    period: "Sep 2024 – Current",
+    title: "Software Engineer Intern",
+    period: "Sep 2024 – Sep 2025",
     points: [
-      "Architected Java 17/Spring Boot/Hibernate services for complex loan workflows (+25% throughput; 12k+ monthly requests).",
-      "Built React + TypeScript + Tailwind dashboards for balances, transactions, analytics (−22% support queries).",
-      "Integrated multi‑source payment APIs via Kafka, Node.js, and GraphQL (−1,200 failed tx/month; higher reliability).",
-      "Optimized search & reporting with PostgreSQL + Elasticsearch (1.7× faster retrieval under high concurrency).",
-      "Automated CI/CD with GitHub Actions, Docker, K8s across AWS (Lambda, EC2, S3) (−30% rollbacks; faster releases).",
-      "Enforced security with Spring Security, OAuth2, JWT, RBAC (mitigated unauthorized access attempts).",
-      "Built real‑time alerting with Kafka Streams + WebSockets (−15 min incident response times).",
-      "Infra as Code + monitoring via Terraform + CloudWatch (↑ availability for 15+ services; −40% MTTR).",
+      "During my internship at Capital One, I had the opportunity to work on a variety of real-world projects that strengthened my technical and problem-solving skills. I helped develop scalable backend services using Java 17, Spring Boot, and Hibernate, which improved the speed and reliability of core banking modules. On the frontend, I collaborated with the team to build interactive dashboards using React.js, TypeScript, and Tailwind CSS, giving users better visibility into their accounts and making the interface more engaging. I also supported the integration of payment APIs using Kafka, Node.js, and GraphQL, ensuring secure and seamless data flow between banks. To make systems more efficient, I worked on optimizing PostgreSQL and ElasticSearch queries and contributed to building automated CI/CD pipelines with GitHub Actions, Docker, and Kubernetes, reducing manual effort during deployments. I also gained experience in securing microservices with Spring Security, OAuth2, and JWT, and helped create event-driven alert systems using Kafka Streams and WebSocket for quicker issue responses. Finally, I learned how to set up and monitor AWS cloud infrastructure with Terraform and CloudWatch, helping maintain system uptime and performance. Overall, the experience gave me a strong understanding of how different technologies work together to power large-scale financial systems.",
     ],
   },
   {
     company: "Deloitte, India",
-    title: "Analyst",
+    title: "Software Analyst",
     period: "Jul 2021 – Jul 2023",
     points: [
-      "Migrated 5000+ Oracle business rules to RedHat Drools using Java; improved accuracy and reliability.",
-      "Delivered 10+ REST APIs with Spring Boot microservices; improved benefits workflows.",
-      "Optimized MySQL/PostgreSQL for 1M+ daily records; ↑ throughput and stability.",
-      "Jenkins + Docker + K8s CI/CD; HIPAA‑compliant releases; −30% rollbacks.",
-      "Centralized logging & monitoring via ELK; faster incident resolution.",
-      "Led code reviews and mentored juniors in Java/Drools/engineering best practices.",
-    ],
-  },
-  {
-    company: "Fusion Software Technologies, India",
-    title: "Software Engineer",
-    period: "Jan 2019 – Jun 2021",
-    points: [
-      "Reusable React hooks for DOM + events (−30% duplication across modules).",
-      "Spring Boot microservices with Kafka broker; async messaging.",
-      "Eureka/Config/Ribbon for discovery, centralized config, and client‑side load‑balancing.",
-      "Full SDLC participation; Agile + DevOps delivery; GraphQL modeling for complex relations.",
+      "At Deloitte, I worked as a Software Analyst focusing on backend development and system optimization. My main responsibility was to modernize legacy business logic by migrating over 5,000 Oracle rules to RedHat Drools using Java, which significantly improved rule accuracy and reduced execution defects across core business workflows. I developed and deployed more than 10 REST APIs and Spring Boot microservices supporting healthcare and enterprise systems, helping streamline employee benefits and data access processes. My work included optimizing MySQL and PostgreSQL databases to handle over a million records daily, improving overall system performance and reliability. I also built and maintained CI/CD pipelines using Jenkins, Docker, and Kubernetes, ensuring smooth feature rollouts and compliance with HIPAA standards. To enhance monitoring and troubleshooting, I integrated the ELK Stack for real-time log analysis and faster issue resolution. Beyond development, I actively contributed to team growth by conducting code reviews, mentoring junior developers, and sharing best practices in Agile environments.",
     ],
   },
 ];
