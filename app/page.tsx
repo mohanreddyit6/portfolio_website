@@ -31,7 +31,7 @@ const PROFILE = {
   title: "Software Engineer",
   location: "Open to Relocate · St. Louis, MO",
   summary:
-    "An IT professional who enjoys building efficient and scalable solutions that solve real-world problems. During my time as a Software Engineering Intern at Capital One and my earlier experience at Deloitte, I worked with technologies like Java, React, SQL, and AWS, and learned how modern DevOps practices bring ideas to life faster. I recently earned my Master’s in Information Systems from Saint Louis University, and I’m excited to keep learning, growing, and contributing to projects that make a real difference.",
+    "An IT professional who enjoys building efficient and scalable solutions that solve real-world problems. During my time as a Software Analyst at Deloitte and my earlier experience at TechCiti Technologies, I worked with technologies like Java, React, SQL, and AWS, and learned how modern DevOps practices bring ideas to life faster. I recently earned my Master’s in Information Systems from Saint Louis University, and I’m excited to keep learning, growing, and contributing to projects that make a real difference.",
   avatar:
     "/avatar.jpg",
   socials: [
@@ -62,15 +62,7 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    title: "Capital One – Financial Platform",
-    blurb: "Architected Java 17/Spring Boot microservices and React TypeScript dashboards; integrated Kafka/GraphQL payment flows and event‑driven alerts; automated CI/CD on AWS (Lambda, EC2, S3).",
-    stack: ["Java 17", "Spring Boot", "React", "TypeScript", "Kafka", "GraphQL", "AWS", "Docker", "Kubernetes"],
-    link: "#experience",
-    repo: "",
-    image: "https://images.unsplash.com/photo-1556745757-8d76bdb6984b?q=80&w=1200&auto=format&fit=crop", // mobile banking app
-  },
-  {
-    title: "Deloitte – Business Rule Automation",
+    title: "Deloitte – Business Rule Project Migration",
     blurb: "Migrated 5000+ Oracle rules to RedHat Drools; delivered secure REST APIs and HIPAA‑compliant releases with Jenkins/Docker/K8s; ELK for observability.",
     stack: ["Java", "Drools", "Spring Boot", "PostgreSQL", "MySQL", "Jenkins", "Docker", "Kubernetes"],
     link: "#experience",
@@ -86,7 +78,7 @@ const PROJECTS = [
     image: "/index7.png", // application development
   },
   {
-    title: "Detecting & Preventing Data lose Analysis – Web Application",
+    title: "Detecting & Preventing Data lose Analysis Web Application - Intern",
     blurb: "Secure data management to monitor and prevent data loss; Reporting feature allows real-time monitoring and analysis of data transactions. ",
     stack: ["Java 17", "Java Servlets", "MySQL", "PHP", "JavaScript"],
     link: "",
@@ -105,19 +97,19 @@ const PROJECTS = [
 
 const EXPERIENCE = [
   {
-    company: "Capital One Financial, CA",
-    title: "Software Engineer Intern",
-    period: "Sep 2024 – Sep 2025",
-    points: [
-      "During my internship at Capital One, I had the opportunity to work on a variety of real-world projects that strengthened my technical and problem-solving skills. I helped develop scalable backend services using Java 17, Spring Boot, and Hibernate, which improved the speed and reliability of core banking modules. On the frontend, I collaborated with the team to build interactive dashboards using React.js, TypeScript, and Tailwind CSS, giving users better visibility into their accounts and making the interface more engaging. I also supported the integration of payment APIs using Kafka, Node.js, and GraphQL, ensuring secure and seamless data flow between banks. To make systems more efficient, I worked on optimizing PostgreSQL and ElasticSearch queries and contributed to building automated CI/CD pipelines with GitHub Actions, Docker, and Kubernetes, reducing manual effort during deployments. I also gained experience in securing microservices with Spring Security, OAuth2, and JWT, and helped create event-driven alert systems using Kafka Streams and WebSocket for quicker issue responses. Finally, I learned how to set up and monitor AWS cloud infrastructure with Terraform and CloudWatch, helping maintain system uptime and performance. Overall, the experience gave me a strong understanding of how different technologies work together to power large-scale financial systems.",
-    ],
-  },
-  {
     company: "Deloitte, India",
     title: "Software Analyst",
     period: "Jul 2021 – Jul 2023",
     points: [
       "At Deloitte, I worked as a Software Analyst focusing on backend development and system optimization. My main responsibility was to modernize legacy business logic by migrating over 5,000 Oracle rules to RedHat Drools using Java, which significantly improved rule accuracy and reduced execution defects across core business workflows. I developed and deployed more than 10 REST APIs and Spring Boot microservices supporting healthcare and enterprise systems, helping streamline employee benefits and data access processes. My work included optimizing MySQL and PostgreSQL databases to handle over a million records daily, improving overall system performance and reliability. I also built and maintained CI/CD pipelines using Jenkins, Docker, and Kubernetes, ensuring smooth feature rollouts and compliance with HIPAA standards. To enhance monitoring and troubleshooting, I integrated the ELK Stack for real-time log analysis and faster issue resolution. Beyond development, I actively contributed to team growth by conducting code reviews, mentoring junior developers, and sharing best practices in Agile environments.",
+    ],
+  },
+  {
+    company: "TechCiti Technologies, India",
+    title: "Software Developer Intern",
+    period: "June 2019 – Aug 2019",
+    points: [
+      "Developed a web-based application to help organizations prevent and monitor potential data loss or unauthorized data transfer across different departments. The system continuously tracks and analyzes data transactions, identifies unusual activity, and provides real-time alerts to ensure information security.The project was built using Java, HTML5, CSS, JavaScript, PHP, and MySQL, integrating both frontend and backend components for secure and efficient data management.As a Software Developer Intern, I was responsible for designing core modules, implementing database connectivity, and optimizing the interface for smooth user experience and reliability.",
     ],
   },
 ];
