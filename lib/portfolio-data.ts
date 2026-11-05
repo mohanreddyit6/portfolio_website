@@ -27,7 +27,7 @@ export const PROFILE = {
 
 // Update these whenever you like — they show in the "Currently" strip.
 export const CURRENTLY = {
-  building: "A Spring AI agent that answers questions about my own resume (try it below 👇)",
+  building: "This portfolio, including a resume bot you can quiz (bottom-right 👇)",
   learning: "AI — slowly turning into a robot 🤖",
   reading: "Designing Data-Intensive Applications",
   robotProgress: 37, // % human → robot

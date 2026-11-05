@@ -984,7 +984,7 @@ function ChatWidget() {
               <span className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-sky-500 to-violet-500 text-white"><Bot className="h-4 w-4" /></span>
               <div>
                 <div className="text-sm font-semibold">Ask my resume</div>
-                <div className="text-[11px] text-slate-500">Answers only from this page · powered by AI</div>
+                <div className="text-[11px] text-slate-500">Instant answers from my resume</div>
               </div>
             </div>
             <div className="flex-1 space-y-3 overflow-y-auto p-4 text-sm">
