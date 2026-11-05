@@ -37,7 +37,7 @@ export async function POST(req: Request) {
 
     const resend = new Resend(apiKey);
     const from = process.env.MAIL_FROM || "Portfolio <onboarding@resend.dev>";
-    const to = process.env.MAIL_TO || "mohanreddy.k@protectmymails.com";
+    const to = process.env.MAIL_TO || "mohanreddykondreddy75@gmail.com";
 
     const result = (await resend.emails.send({
       from,

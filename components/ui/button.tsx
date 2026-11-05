@@ -6,7 +6,7 @@ type ButtonBaseProps = React.ComponentPropsWithoutRef<"button">;
 
 export interface ButtonProps extends ButtonBaseProps {
   variant?: "default" | "outline" | "secondary" | "ghost";
-  size?: "default" | "icon";
+  size?: "default" | "sm" | "lg" | "icon";
   asChild?: boolean;
 }
 
@@ -22,6 +22,8 @@ const variants: Record<NonNullable<ButtonProps["variant"]>, string> = {
 
 const sizes: Record<NonNullable<ButtonProps["size"]>, string> = {
   default: "h-11 px-4",
+  sm: "h-9 px-3 text-xs",
+  lg: "h-12 px-6 text-base",
   icon: "h-11 w-11 p-0",
 };
 
